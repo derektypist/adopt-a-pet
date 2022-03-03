@@ -28,6 +28,7 @@ const Navigation = () => {
           <a
             href="/"
             className="nav-link"
+            activeClassName="nav-link-active"
           >
             All Pets
           </a>
@@ -40,6 +41,7 @@ const Navigation = () => {
                   href={`/${type._links.self.href.split('/').pop()}`}
                   key={type.name}
                   className="nav-link"
+                  activeClassName="nav-link-active"
                 >
                   {type.name}s
                 </a>{' '}
