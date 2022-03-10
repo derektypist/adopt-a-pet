@@ -18,7 +18,7 @@ const Search = () => {
     }).toString();
 
     // imperatively redirect with history.push()
-    history.push('/search' + searchQuery);
+    history.push('/search/?' + searchQuery);
   };
 
   return (
