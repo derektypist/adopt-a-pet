@@ -19,7 +19,10 @@ const Navigation = () => {
   return (
     <nav>
       <div className="nav-logo">
+        <NavLink to="/">
         <img src={Logo} alt="Petlover" />
+          </NavLink>
+        
         <Search />
       </div>
       <ul className="nav-links">
